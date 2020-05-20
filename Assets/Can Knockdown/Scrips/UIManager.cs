@@ -92,13 +92,13 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void RetryBtn()                                  //method to reset the current level
+    public void HomeBtn()                                   //method to load level again and go to main menu
     {
-        GameManager.instance.SetGameStatus(GameStatus.NONE);
+        GameManager.singleton.gameStatus = GameStatus.None;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void NextBtn()                                   //method to load the level again
+    public void NextRetryBtn()                               //method to load level again without going to main menu
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
