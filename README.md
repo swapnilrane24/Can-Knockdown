@@ -1,6 +1,9 @@
 # Can_Knockdown
  Complete Can Knockdown Unity Project
 
+## Tutorial
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sNRtAJo87G8/0.jpg)](http://www.youtube.com/watch?v=sNRtAJo87G8)
+
 ## GamePlay
 ![Can Knockdown](https://media.giphy.com/media/jslxoPyNqvccIZN1Rp/giphy.gif)
 
