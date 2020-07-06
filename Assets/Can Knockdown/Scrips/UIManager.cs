@@ -94,7 +94,7 @@ public class UIManager : MonoBehaviour
 
     public void HomeBtn()                                   //method to load level again and go to main menu
     {
-        GameManager.singleton.gameStatus = GameStatus.None;
+        GameManager.instance.gameStatus = GameStatus.NONE;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
