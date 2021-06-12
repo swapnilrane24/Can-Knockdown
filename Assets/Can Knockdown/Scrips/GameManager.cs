@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     private GameStatus gameStatus = GameStatus.NONE;                    //by default gameStatus is none
 
-    public GameStatus GameStatus { get { return gameStatus; } }         //getter for gameStatus
+    public GameStatus GameStatus { get { return gameStatus; } set {gameStatus = value; } }         //getter for gameStatus
 
     private int currentLevel = 0;                                       //int variable to store current level index
     public int CurrentLevel { get { return currentLevel; } set { currentLevel = value; } }  //getter and setter for current level
